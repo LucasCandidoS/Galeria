@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #49fecf;
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+    color: #370128;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #e42355;
+}
+
+.galeria img {
+    margin: 10px;
+    width: calc(33.33% - 20px); 
+    height: auto;
+    color: #fe7945;
+}
+
+@media (max-width: 600px) {
+    .galeria img {
+        width: calc(100% - 20px); 
+    }
+}
