@@ -30,3 +30,10 @@ h1{
         width: calc(100% - 20px); 
     }
 }
+img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s;
+}
+img:nth-child(even){
+    transform: rotate(10deg);
+}
